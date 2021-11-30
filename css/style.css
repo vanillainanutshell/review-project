@@ -1,0 +1,19 @@
+body {
+  background: palevioletred;
+}
+
+nav {
+  display: flex;
+  background: palevioletred;
+}
+
+.nav-item {
+  display: inline-flex;
+  background: peru;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
